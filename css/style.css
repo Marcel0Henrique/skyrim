@@ -32,6 +32,25 @@ font-size: 2vh !important;
     -o-background-size: cover;
 }
 
+.bg-navbar{
+    
+    display: block;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url("") no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+   
+}
+
+
 .titulo{
     text-align: center !important;
     font-family: 'Playfair Display', serif;
