@@ -8,7 +8,7 @@ body{
 
 .menu{
     background-color: #1a2738 !important;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif !important;
 }
 
 .menu-font a{
