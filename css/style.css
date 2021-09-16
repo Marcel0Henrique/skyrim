@@ -16,25 +16,6 @@ font-size: 2vh !important;
 }
 
 
-
-.intro {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
-    text-align: center;
-    color: white;
-    background: url("https://raw.githubusercontent.com/Marcel0Henrique/skyrim/master/img/intro.jpeg") no-repeat bottom center scroll;
-    background-position: 30% 45%;
-    background-color: black;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-
-
 .titulo{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
@@ -46,6 +27,12 @@ font-size: 2vh !important;
     font-family:'Playfair Display', serif ;
     text-align: justify;
     font-size: 18px;
+}
+
+
+.lista{
+    background-color: #1a2738;
+    color: white;
 }
 
 .rodape{
