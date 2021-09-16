@@ -35,6 +35,11 @@ font-size: 2vh !important;
     color: white;
 }
 
+.card-bg{
+    background-color: #1a2738;
+    color: white;
+}
+
 .rodape{
     background-color: #1a2738 !important;
     font-family: 'Playfair Display', serif;
