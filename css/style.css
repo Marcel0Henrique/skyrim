@@ -45,5 +45,13 @@ font-size: 2vh !important;
     text-indent: 2rem;
     font-family:'Playfair Display', serif ;
     text-align: justify;
+    font-size: 18px;
+}
+
+.rodape{
+    background-color: #1a2738 !important;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
 }
 
