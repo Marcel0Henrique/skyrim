@@ -22,7 +22,8 @@
 
         
         <!-- Menu de navegação-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+        <!-- Menu de navegação-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu fixed-top">
           <a class="navbar-brand menu-font" href="index.html">
             The Elder Scrolls
           </a>
@@ -32,10 +33,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item ">
-                <a class="nav-link active" href="index.html">Inicio<span class="sr-only">(Página atual)</span></a>
+                <a class="nav-link " href="index.html">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " href="saga.html">Saga</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Saga
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="saga.html#arena">Arena</a>
+                  <a class="dropdown-item" href="saga.html#daggerfall">Daggerfall</a>
+                  <a class="dropdown-item" href="saga.html#expancoes">Expansões</a>
+                  <a class="dropdown-item" href="saga.html#morrowind">Morrowind</a>
+                  <a class="dropdown-item" href="saga.html#oblivion">Oblivion</a>
+                  <a class="dropdown-item" href="saga.html#skyrim">Skyrim</a>
+                  <a class="dropdown-item" href="saga.html#online">The Elder Scrolls Online</a>
+                  <a class="dropdown-item" href="saga.html#VI">The Elder Scrolls VI</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pag 3</a>
